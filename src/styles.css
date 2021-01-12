@@ -3,9 +3,10 @@
     height: 300px;
     margin-top: -200px;
     margin-right: -1px;
-
-    background-image: url('assets/img8.jpg');
-    background-size: 100%;
+    width:100%;
+    background: linear-gradient(rgb(14, 1, 1),rgb(111, 0, 255));
+    background-size: cover;
+    
 }
 
 
@@ -17,7 +18,7 @@ nav{
     margin-top: 200px;
 }
 nav a:visited,a:link{
-    color: rgb(248, 87, 7);
+    color: rgb(241, 237, 235);
     top: 100px;
     
     background-size: 1000px;
@@ -101,6 +102,6 @@ nav a:active{
 
 .imgb1{
     height:400px ;
-    width: 400px;
+    width: 100%;
     float: left;
 }
